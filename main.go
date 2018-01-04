@@ -2,7 +2,6 @@ package main
 
 import (
   "github.com/hashicorp/terraform/plugin"
-  "github.com/thomasriley/terraform-provider-sensu/sensu"
 )
 
 func main() {

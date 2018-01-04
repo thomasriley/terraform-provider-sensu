@@ -47,7 +47,7 @@ func Provider() terraform.ResourceProvider {
         Optional:    true,
         DefaultFunc: schema.EnvDefaultFunc("SENSU_BACKEND_AUTHORIZATION_BEARER", ""),
         Description: "Token for authenticating with the API",
-      }
+      },
     },
 
     DataSourcesMap: map[string]*schema.Resource{

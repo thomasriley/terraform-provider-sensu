@@ -3,11 +3,6 @@ package sensu
 import (
   "fmt"
   "log"
-  "github.com/ddliu/go-httpclient"
-  "runtime"
-
-  "github.com/hashicorp/terraform/helper/logging"
-  "github.com/hashicorp/terraform/terraform"
 )
 
 // Config defines the configuration options for the Sensu client
